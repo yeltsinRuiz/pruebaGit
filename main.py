@@ -1,3 +1,6 @@
 from funciones import suma,resta
-
-print(suma(2,3))
+from pedir import pedir_numero,titulo
+titulo()
+numero1=pedir_numero()
+numero2=pedir_numero()
+print(suma(numero1,numero2))
