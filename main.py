@@ -1,4 +1,7 @@
-from funciones import suma,resta
-
-print(suma(3,4))
-print(resta(10,5))
+from funciones import suma,resta,multiplicacion
+from pedir import pedir_numero,titulo
+titulo()
+numero1=pedir_numero()
+numero2=pedir_numero()
+print(multiplicacion(numero1,numero2))
+print(resta(numero1,numero2))
